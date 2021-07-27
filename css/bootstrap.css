@@ -111,7 +111,7 @@ svg:not(:root) {
 }
 
 figure {
-    margin: 1em 40px
+    margin: 0rem 0rem
 }
 
 hr {
@@ -1422,9 +1422,7 @@ a:focus {
     outline-offset: -2px
 }
 
-figure {
-    margin: 0
-}
+
 
 img {
     vertical-align: middle
@@ -1622,7 +1620,7 @@ h6 {
 }
 
 p {
-    margin: 0 0 10px
+    margin: 0 0 15px
 }
 
 .lead {
@@ -2010,7 +2008,8 @@ pre code {
 
 .row {
     margin-right: 15px;
-    margin-left: 15px
+    margin-left: 15px;
+    margin-bottom: 44px;
 }
 
 .col-lg-1,
@@ -4375,7 +4374,7 @@ tbody.collapse.in {
 }
 
 .open>.dropdown-menu {
-    display: block
+    display: block;
 }
 
 .open>a {
@@ -7680,7 +7679,6 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000/9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
