@@ -2062,8 +2062,8 @@ pre code {
 .col-xs-9 {
     position: relative;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px
+    padding-right: 5px;
+    padding-left: 5px
 }
 
 .col-xs-1,
@@ -2327,9 +2327,7 @@ pre code {
     .col-sm-4 {
         width: 33.33333333%
     }
-    .col-sm-3 {
-        width: 25%
-    }
+    
     .col-sm-2 {
         width: 16.66666667%
     }
@@ -3153,10 +3151,10 @@ output {
 }
 
 .form-control:focus {
-    border-color: #66afe9;
+    border-color: rgb(255 179 0 / 58%);
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(255 179 0 / 58%);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(255 179 0 / 58%)
 }
 
 .form-control::-moz-placeholder {
@@ -7794,17 +7792,7 @@ button.close {
     margin-left: auto
 }
 
-.pull-right {
-    float: right !important
-}
 
-.pull-left {
-    float: left !important
-}
-
-.hide {
-    display: none !important
-}
 
 .show {
     display: block !important

@@ -20,6 +20,9 @@
 	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<script src="./js/gmaps.js" defer></script>
 
+    <script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js" defer></script>
+	<script src="./js/formHandler.js" defer></script>
     
 
     
@@ -33,7 +36,8 @@
 	<div class="page-container">
 		
 		<!-- bloc-0 -->
-		<div class="bloc bgc-white l-bloc " id="bloc-0">
+		<header class="bloc bgc-white l-bloc " id="bloc-0">
+		
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
@@ -50,7 +54,12 @@
 						<ul class="site-navigation nav navbar-nav">
 							<li>
 								<a href="#bloc-2-services">
-									Services
+									Nos services
+								</a>
+							</li>
+							<li>
+								<a href="#bloc-3-notre-metier">
+									Notre métier
 								</a>
 							</li>
 							<li>
@@ -67,26 +76,27 @@
 					</div>
 				</nav>
 			</div>
-		</div>
+		</header>
+		
 		<!-- bloc-0 END -->
 
 		<!-- bloc-1-presentation -->
-		<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
+		<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 			<div class="container bloc-lg">
 				<div class="row tight-width-whitespace">
 					<div class="col-sm-12">
 						<img src="img/logo.png" class="center-block image-resize-mode" alt="La chouette agence, agence web Lyon, création web Lyon" />
 						<h1 class="text-center hero-bloc-text tc-white ">
-							Your business is unique, so is your website.
+							Devenz attractives et visibles sur internet grace à La Chouette agence. 
 						</h1>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-1-presentation END -->
 
 		<!-- bloc-2-services -->
-		<div class="bloc bgc-white l-bloc" id="bloc-2-services">
+		<section class="bloc bgc-white l-bloc" id="bloc-2-services">
 			<div class="container bloc-md">
 				<div class="row">
 					<div class="col-sm-12 text-center">
@@ -110,7 +120,7 @@
 					</div>
 					<div class="col-sm-4">
 						<div class="text-center">
-							<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg">
+							<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg ">
 							</span>
 						</div>
 						<h3 class="mg-md text-center">
@@ -148,7 +158,7 @@
 					</figure>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-2-services END -->
 		<!-- ScrollToTop Button -->
 		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')">
@@ -157,13 +167,13 @@
 		</a>
 		<!-- ScrollToTop Button END-->
 		<!-- bloc-3-what-i-do -->
-		<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
+		<section class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-notre-metier">
 			<div class="container bloc-lg">
 				<div class="row tight-width-whitespace black-background">
 					<div class="col-sm-12">
 						<h2 class="mg-md text-center ">
 							Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. 
-							Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .
+							Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients.
 						</h2>
 						<p class="col-sm-12-p text-center white">
 							Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient 
@@ -175,11 +185,11 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-3-what-i-do END -->
 
 		<!-- bloc-4-portfolio -->
-		<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+		<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12 text-center">
@@ -236,11 +246,11 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-4-portfolio END -->
 
 		<!-- bloc-5-cta -->
-		<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
+		<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 			<div class="container bloc-lg">
 				<div class="row">
 					<h2 class="mg-md text-center tc-white">
@@ -253,7 +263,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-5-cta END -->
 
 		<!-- Footer - bloc-8 -->
@@ -268,7 +278,7 @@
 							<div class="col-sm-3">
 								<div class="text-center">
 									<a class="social" href="#">
-										<span class="fa fa-twitter icon-md">
+										<i class="fa fa-twitter icon-md"></i>
 										</span>
 									</a>
 								</div>
@@ -276,7 +286,7 @@
 							<div class="col-sm-3">
 								<div class="text-center">
 									<a class="social" href="#">
-										<span class="fa fa-facebook icon-md">
+										<i class="fa fa-facebook icon-md"></i>
 										</span>
 									</a>
 								</div>
@@ -284,7 +294,7 @@
 							<div class="col-sm-3">
 								<div class="text-center">
 									<a class="social" href="#">
-										<span class="fa fa-dribbble icon-md">
+										<i class="fa fa-dribbble icon-md"></i>
 										</span>
 									</a>
 								</div>
@@ -292,7 +302,7 @@
 							<div class="col-sm-3">
 								<div class="text-center">
 									<a class="social" href="#">
-										<span class="fa fa-instagram icon-md">
+										<i class="fa fa-instagram icon-md"></i>
 										</span>
 									</a>
 								</div>
@@ -306,7 +316,6 @@
 
 	</div>
 	<!-- Principal conteneur END -->
-    
-
+    <script src="https://kit.fontawesome.com/de2ea486d7.js" crossorigin="anonymous"></script>
 </body>
 </html>
