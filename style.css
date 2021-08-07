@@ -902,7 +902,7 @@ h4 {
         max-width: 100%
     }  
 }
-@media only screen and (min-device-width: 425px) and (max-device-width: 768px) and (orientation: landscape) {
+@media only screen and (min-width: 425px) and (max-width: 768px) and (orientation: landscape) {
     
     html{
         font-size: 10px;
@@ -911,7 +911,7 @@ h4 {
         max-width: 692px;
     }
 }
-@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -920,7 +920,7 @@ h4 {
         max-width: 692px;
     }
 }
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1400px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1400px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -931,7 +931,7 @@ h4 {
         max-width: 692px;
     }
 }
-@media only screen and  (min-device-width: 1400px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and  (min-width: 1400px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
