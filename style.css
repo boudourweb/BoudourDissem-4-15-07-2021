@@ -860,10 +860,6 @@ h4 {
     z-index: 1;
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
     z-index: -2;
@@ -872,7 +868,7 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
-#gallerie-1{
+.gallerie-1{
     margin-bottom: 50px;
 }
 @media (max-width: 1024px) {
