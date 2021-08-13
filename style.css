@@ -370,14 +370,14 @@ a:hover {
     z-index: 2;
 }
 blockquote p {
-    font-size: 1.4rem;
+    font-size: 1.75rem;
     line-height: 1.4em;
     text-align: justify;
     padding-left: 10px ;
     padding-right: 10px ;
 }
 figcaption{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 blockquote p::before {
@@ -683,6 +683,9 @@ a {
     font-weight: 700;
     color: #000000;
 }
+label{
+    font-size: 1.6rem;
+}
 
 .container {
     max-width: 1000px;
@@ -740,7 +743,10 @@ h2 {
     font-size: 2.3rem;
     line-height: 1.4em;
 }
-
+.coordonnees h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
 h3 {
     font-size: 1.8rem;
     line-height: 1.4em;
@@ -882,6 +888,13 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .coordonnees{ 
+        padding: 0px 0px 0px 10px;
+    }
+    .coordonnees h2{
+        font-size: 1.7rem;
+        margin: 0;
+    }
 }
 @media (min-width: 768px) and (max-width: 992px) {
     html{
@@ -895,7 +908,14 @@ h4 {
     }
     .nav-center.navbar .nav {
         max-width: 100%
-    }  
+    }
+    .coordonnees{ 
+    padding: 0px 0px 0px 25px;
+    }
+    .coordonnees h2{
+        font-size: 1.7rem;
+        margin: 0;
+    }
 }
 @media only screen and (min-width: 425px) and (max-width: 768px) and (orientation: landscape) {
     
@@ -914,6 +934,9 @@ h4 {
     .tight-width-whitespace {
         max-width: 692px;
     }
+    .coordonnees{ 
+        padding: 21px 0px 0px 25px;
+        }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1400px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
@@ -925,6 +948,9 @@ h4 {
     .tight-width-whitespace {
         max-width: 692px;
     }
+    .coordonnees{ 
+        padding: 21px 0px 0px 25px;
+        }
 }
 @media only screen and  (min-width: 1400px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
@@ -949,6 +975,9 @@ h4 {
     .container {
         max-width: 1800px;
     }   
+    .coordonnees{ 
+        padding: 21px 0px 0px 25px;
+        }
 }
 @media (max-width: 991px) {
     .container {

@@ -2062,8 +2062,8 @@ pre code {
 .col-xs-9 {
     position: relative;
     min-height: 1px;
-    padding-right: 5px;
-    padding-left: 5px
+    padding-right: 6px;
+    padding-left: 8px
 }
 
 .col-xs-1,
@@ -4368,7 +4368,6 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
 }
 
 .open>.dropdown-menu {
